@@ -1,6 +1,6 @@
 # FHIR Extensions as Python properties
 
-This repository is a POC that demonstrates how you can access [FHIR extensions] as Python properties when utilizing Pydantic as FHIR/JSON validation engine.
+This repository contains a POC that demonstrates how you can access [FHIR extensions](https://www.hl7.org/fhir/extensibility.html) as Python properties when utilizing Pydantic as FHIR/JSON validation engine.
 
 Using simple type annotations, the extensions on FHIR Elements are automatically validated and converted to Python properties.
 
