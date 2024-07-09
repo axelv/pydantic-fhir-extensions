@@ -11,7 +11,7 @@ Model definition:
 ```python
 from typing import Annotated, List, Literal
 
-from pydantic_fhir_extensions.base import BaseElement, CodeableConcept, Coding, Expression
+from pydantic_fhir_extensions.base import BaseElement, Coding
 from pydantic_fhir_extensions.extension_validator import ExtensionValidator
 from pydantic_fhir_extensions.extensions import ExtItemControl, ExtAnswerOptionsToggleExpression
 
