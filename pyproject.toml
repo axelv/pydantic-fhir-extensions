@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pydantic-fhir-extensions"
+version = "0.1.0"
+description = ""
+authors = ["Axel Vanraes <axel.vanraes@tiro.health>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.8.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+ruff = "^0.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 120
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
