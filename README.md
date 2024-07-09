@@ -32,8 +32,6 @@ class QuestionnaireItem(BaseElement):
 Example validation code:
 
 ```python
-
-```python
 fhir_json = {
     "extension": [
         {
