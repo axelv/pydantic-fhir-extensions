@@ -3,8 +3,9 @@
 from typing import Annotated, Literal, Self, Sequence
 
 from pydantic import Field
-from pydantic_fhir_extensions.extension_validator import ExtensionValidator
-from pydantic_fhir_extensions.base import BaseElement, Coding, Expression
+from pydantic_fhir_extensions.extensions.validator import ExtensionValidator
+from pydantic_fhir_extensions.element import BaseElement
+from pydantic_fhir_extensions.base import Coding, Expression
 
 
 ANSWER_OPTION_TOGGLE_EXPRESSION = "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-answerOptionsToggleExpression"

@@ -57,7 +57,7 @@ def test_validation_question_with_item_control():
     result = QuestionnaireItem.model_validate(json_1)
     assert result.itemControl.code == "text-area"
     assert result.itemControl.display == "Text Area"
-    assert len(result.extension) == 1
+    assert result.extension is not None and len(result.extension) == 1
 
     result_2 = QuestionnaireItem.model_validate(json_2)
     serialized_1 = result.model_dump_fhir()
