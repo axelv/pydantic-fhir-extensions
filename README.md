@@ -1,3 +1,6 @@
+> [!TIP]
+> This was a POC but wasn't satisfying enough to continue developing. Please take a look at [Pydantic FHIR Slicing](https://github.com/axelv/pydantic-fhir-slicing) for a more promissing approach.
+
 # FHIR Extensions as Python properties
 
 This repository contains a POC that demonstrates how you can access [FHIR extensions](https://www.hl7.org/fhir/extensibility.html) as Python properties when utilizing Pydantic as FHIR/JSON validation engine.
